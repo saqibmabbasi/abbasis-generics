@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\Abbasis.Generic.Core\Abbasis.Generic.Core.csproj" />
+    <ProjectReference Include="..\Abbasis.Generic.RepositoryPattern\Abbasis.Generic.RepositoryPattern.csproj" />
   </ItemGroup>
 
 </Project>

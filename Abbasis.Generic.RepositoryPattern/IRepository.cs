@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Abbasis.Generic.RepositoryPattern
 {
-	internal interface IRepository<TEntity> where TEntity : class
+	public interface IRepository<TEntity> where TEntity : class
 	{
 		TEntity GetById(long id);
 
